@@ -1,0 +1,25 @@
+class A{
+static void Main(){
+public string a="This is a csharp program";
+  string+="for Text Manipulation displayed on GitHub";
+  Console.WriteLine("Given string:\n"+a);
+  
+ for(int i=(int)'z';i>=(int)'a';i--)
+ {
+    char old=(char)i;
+    char new=(char)(i+1);
+    a=a.replace(old,new);
+ }
+
+
+for(int i=(int)'Z';i>=(int)'A';i--)
+ {
+    char old=(char)i;
+    char new=(char)(i+1);
+    a=a.replace(old,new);
+ }
+ Console.WriteLine("\nEncoded string:\n"+a);
+}
+
+
+}
